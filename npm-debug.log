@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.18
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json RealTimeWebChat@0.0.0 No repository field.
+6 warn package.json RealTimeWebChat@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'D:\\js\\realTimeChat', [ 'socket.io', 'express', 'jade' ] ]
+9 info preinstall RealTimeWebChat@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'socket.io@latest', null ]
+12 verbose cache add name=undefined spec="socket.io@latest" args=["socket.io@latest",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'socket.io@latest',
+13 verbose parsed url   path: 'socket.io@latest',
+13 verbose parsed url   href: 'socket.io@latest' }
+14 verbose cache add name="socket.io" spec="latest" args=["socket.io","latest"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'latest',
+15 verbose parsed url   path: 'latest',
+15 verbose parsed url   href: 'latest' }
+16 verbose addNamed [ 'socket.io', 'latest' ]
+17 verbose addNamed [ null, null ]
+18 verbose cache add [ 'express@latest', null ]
+19 verbose cache add name=undefined spec="express@latest" args=["express@latest",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'express@latest',
+20 verbose parsed url   path: 'express@latest',
+20 verbose parsed url   href: 'express@latest' }
+21 verbose cache add name="express" spec="latest" args=["express","latest"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'latest',
+22 verbose parsed url   path: 'latest',
+22 verbose parsed url   href: 'latest' }
+23 verbose addNamed [ 'express', 'latest' ]
+24 verbose addNamed [ null, null ]
+25 verbose cache add [ 'jade@latest', null ]
+26 verbose cache add name=undefined spec="jade@latest" args=["jade@latest",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'jade@latest',
+27 verbose parsed url   path: 'jade@latest',
+27 verbose parsed url   href: 'jade@latest' }
+28 verbose cache add name="jade" spec="latest" args=["jade","latest"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'latest',
+29 verbose parsed url   path: 'latest',
+29 verbose parsed url   href: 'latest' }
+30 verbose addNamed [ 'jade', 'latest' ]
+31 verbose addNamed [ null, null ]
+32 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+33 verbose lock socket.io@latest C:\Users\avi1kor\AppData\Roaming\npm-cache\d01f6c55-socket-io-latest.lock
+34 silly lockFile c30a01ab-express-latest express@latest
+35 verbose lock express@latest C:\Users\avi1kor\AppData\Roaming\npm-cache\c30a01ab-express-latest.lock
+36 silly lockFile 50c7aeb0-jade-latest jade@latest
+37 verbose lock jade@latest C:\Users\avi1kor\AppData\Roaming\npm-cache\50c7aeb0-jade-latest.lock
+38 info addNameTag [ 'socket.io', 'latest' ]
+39 info addNameTag [ 'express', 'latest' ]
+40 info addNameTag [ 'jade', 'latest' ]
+41 verbose url raw socket.io
+42 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+43 verbose url resolved https://registry.npmjs.org/socket.io
+44 info trying registry request attempt 1 at 20:24:35
+45 http GET https://registry.npmjs.org/socket.io
+46 verbose url raw express
+47 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+48 verbose url resolved https://registry.npmjs.org/express
+49 info trying registry request attempt 1 at 20:24:35
+50 http GET https://registry.npmjs.org/express
+51 verbose url raw jade
+52 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+53 verbose url resolved https://registry.npmjs.org/jade
+54 info trying registry request attempt 1 at 20:24:35
+55 http GET https://registry.npmjs.org/jade
+56 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+57 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+58 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+59 info trying registry request attempt 2 at 20:24:46
+60 http GET https://registry.npmjs.org/express
+61 info trying registry request attempt 2 at 20:24:46
+62 http GET https://registry.npmjs.org/socket.io
+63 info trying registry request attempt 2 at 20:24:46
+64 http GET https://registry.npmjs.org/jade
+65 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+66 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+67 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+68 info trying registry request attempt 3 at 20:25:46
+69 http GET https://registry.npmjs.org/express
+70 info trying registry request attempt 3 at 20:25:46
+71 http GET https://registry.npmjs.org/socket.io
+72 info trying registry request attempt 3 at 20:25:46
+73 http GET https://registry.npmjs.org/jade
+74 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+75 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+76 silly lockFile c30a01ab-express-latest express@latest
+77 silly lockFile c30a01ab-express-latest express@latest
+78 silly lockFile 50c7aeb0-jade-latest jade@latest
+79 silly lockFile 50c7aeb0-jade-latest jade@latest
+80 error network tunneling socket could not be established, cause=9588:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:766:
+80 error network
+80 error network This is most likely not a problem with npm itself
+80 error network and is related to network connectivity.
+80 error network In most cases you are behind a proxy or have bad network settings.
+80 error network
+80 error network If you are behind a proxy, please make sure that the
+80 error network 'proxy' config is set properly.  See: 'npm help config'
+81 error System Windows_NT 6.1.7601
+82 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+83 error cwd D:\js\realTimeChat
+84 error node -v v0.10.18
+85 error npm -v 1.3.8
+86 error code ECONNRESET
+87 verbose exit [ 1, true ]
